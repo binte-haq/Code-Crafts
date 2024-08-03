@@ -1,0 +1,254 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('https://i.ibb.co/k9t4Mvv/istockphoto-458065911-612x612.jpg');
+    background-size: cover;
+
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin: 20px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('https://i.ibb.co/k9t4Mvv/istockphoto-458065911-612x612.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hero-content button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-content button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 18px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+.who-we-are {
+    font-family: 'Lora', serif;
+    background-color: #77CCFF;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    display: flex;
+  }
+  
+  .text-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .text-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .image-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .who-we-are {
+      flex-direction: column;
+    }
+  }
+  
+  .what-we-do {
+    font-family: 'Lora', serif;
+    background-color: #a0eeae;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.what-we-do .description {
+    margin-bottom: 30px;
+}
+
+.what-we-do h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.what-we-do p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.what-we-do .images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.what-we-do .images img {
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.text-space {
+    margin-top: 20px;
+    /* You can add more styling or content here as needed */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .what-we-do .images {
+        flex-direction: column;
+    }
+
+    .what-we-do .images img {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
